@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+
+<style>
+    .form-control {
+        padding: 10px;
+    }
+
+    .main-div {
+        color: white;
+        border: 2px solid black;
+        width: 1024px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #b7e9e2;
+        text-align: left;
+        border-radius: 20px;
+    }
+
+    h1 {
+        color: #3a3e04;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+
+    label {
+        color: #54420a;
+        font-size: 1.5rem;
+        margin: 0 auto;
+        padding-right: 15px;
+        width: 320px;
+    }
+
+    input {
+        width: 180px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 1rem;
+        color: darkred;
+        border: 2px solid black;
+        background-color: #53d0f7;
+        text-decoration: none;
+        margin: 0 auto;
+        padding: 10px;
+        text-transform: uppercase;
+        border-radius: 10px ;
+    }
+</style>
+<header>
+    <div class="main-div">
+        <h1>Account Signup</h1>
+        <form id="login" class="login" method="POST" action="/register">
+            <div class="form-control">
+                <label for="username">account username</label>
+                <input
+                        required
+                        id="username"
+                        name="username"
+                        type="text"
+                        placeholder="xyzname"
+                />
+            </div>
+            <div class="form-control">
+                <label for="email">account email</label>
+                <input
+                        required
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="your_email@workspace.com"
+                />
+            </div>
+            <div class="form-control">
+                <label for="password">account password</label>
+                <input
+                        required
+                        id="password"
+                        name="password"
+                        type="password"
+                        placeholder="account password"
+                />
+            </div>
+            <div class="form-control">
+                <button type=submit>Signup</button>
+            </div>
+        </form>
+    </div>
+</header>
+</body>
+</html>
