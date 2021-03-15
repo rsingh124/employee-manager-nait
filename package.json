@@ -9,7 +9,7 @@
   "description": "const fs = require('fs')",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch index.js"
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
