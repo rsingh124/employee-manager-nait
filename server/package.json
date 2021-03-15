@@ -1,6 +1,11 @@
 {
   "name": "emp-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
   "description": "const fs = require('fs')",
   "main": "index.js",
   "scripts": {
@@ -23,6 +28,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "express-validator": "^6.9.2",
+    "heroku": "^7.50.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
